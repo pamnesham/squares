@@ -2,6 +2,7 @@ import turtle
 lengthSide = turtle.numinput('','Enter a number: ')
 
 def drawsquare(arg):
+    turtle.speed(9)
     turtle.forward(int(arg))
     turtle.left(90)
     turtle.forward(int(arg))
